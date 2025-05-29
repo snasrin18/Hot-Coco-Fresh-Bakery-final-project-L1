@@ -1,0 +1,45 @@
+
+#con{
+font-family:  Comic Sans MS, Comic Sans, cursive;
+}
+body{
+    background-image:url("https://media.istockphoto.com/id/1208625205/vector/seamless-vector-bakery-pattern-pink-cake-background.jpg?s=612x612&w=0&k=20&c=0m6afg2IYA8rh3F3yqdlm2jCwcV2PdQCB1ZpzirxcyE=");
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+#cake{
+    width: 400px;
+
+    
+}
+#gallery{
+    border:10px ridge brown;
+    clear:both;
+    margin:0 40px;
+    display:flex;
+    flex-direction: column;
+}
+#gallery::after{
+    content:"";
+    clear:both;
+    display:table;
+}
+
+#gallery-item{
+    margin:20px;
+  
+}
+.menu{
+    display: flex;
+    justify-content: space-around;
+    background-color:palevioletred;
+    margin-bottom:20px;
+}
+.addressDiv{
+display:flex;
+justify-content: space-around;
+}
+.linKdiv{
+    border: 4px mediumvioletred solid;
+    padding: 20px;
+}

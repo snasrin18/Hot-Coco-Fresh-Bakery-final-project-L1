@@ -1,0 +1,14 @@
+body{
+ background-image:url("https://i.pinimg.com/736x/f8/d1/80/f8d1803d1311519703df7ff69c7cf076.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+#order{
+    font-family:  Comic Sans MS, Comic Sans, cursive;
+}
+.menu{
+    display: flex;
+    justify-content: space-around;
+    background-color:palevioletred;
+    margin-bottom:20px;
+}
